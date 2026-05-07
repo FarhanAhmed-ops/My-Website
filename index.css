@@ -1,0 +1,146 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body{
+  background-color: white;
+  color: black;
+  overflow-x:hidden;
+}
+img{
+  max-width: 100%;
+  display: block;
+}
+.container{
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Hero Section */
+
+
+.hero{
+  min-height: 100vh;
+  background:
+  linear-gradient(rgba(8,26,45,0.72),rgba(8,26,45,0.72)),
+  url('service.png') center/cover no-repeat;
+  position: relative;
+  padding-bottom: 70px;
+}
+
+nav{
+  width:90%;
+  height: 70px;
+  margin:auto;
+  background:#fff;
+  border-radius:60px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:14px 28px;
+  position:relative;
+  top:20px;
+  box-shadow:0 10px 25px rgba(0,0,0,0.12);
+}
+
+
+.logo{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 700;
+  color: #0f4c5c;
+}
+
+.logo-circle{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.orange{
+  color: #ff7a00;
+}
+
+.nav-links{
+  display: flex;
+  gap: 28px;
+  list-style: none;
+}
+
+.nav-links a{
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.nav-links a:hover{
+  color: #ff7a00;
+}
+
+.talk-btn{
+  padding: 12px 24px;
+  border: none;
+  background-color: #ff7a00;
+  color: #fff;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: 600;
+  box-shadow: 0px 10px 20px rgba(255,122,0,0.3);
+}
+
+.hero-content{
+  width: 90%;
+  max-width: 1200px;
+  margin: 120px;
+  color: #fff;
+  margin-top:70px;
+}
+
+.small-title{
+  display: inline-block;
+  padding: 7px 14px;
+  background: rgba(255,122,0,0.18);
+  border: 1px solid rgba(255,122,0,0.35);
+  color:#ffb56d;
+  border-radius: 3px;
+  font-size: 20px;
+  margin-bottom: 18px;
+  letter-spacing: 1px;
+}
+
+.hero-content h1{
+  font-size: 64px;
+  line-height: 1.1;
+  max-width: 700px;
+  margin-bottom: 24px;
+  font-weight: 800;
+}
+
+.hero-content p{
+  max-width: 570px;
+  line-height: 1.9;
+  color: #e5e7eb;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+.p2{
+  margin-top: -10px;
+}
+
+.book-btn{
+  background:#ff7a00;
+  border: none;
+  padding: 16px 28px;
+  border-radius: 40px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 12px 25px rgba(255,122,0,0.35);
+}
